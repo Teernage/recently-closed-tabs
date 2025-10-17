@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "最近关闭标签页管理器",
+  "version": "1.0",
+  "description": "查看和恢复最近关闭的标签页",
+  "permissions": ["sessions", "tabs", "favicon"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "最近关闭的标签页"
+  }
+}
