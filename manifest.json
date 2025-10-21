@@ -3,9 +3,37 @@
   "name": "最近关闭标签页管理器",
   "version": "1.0",
   "description": "查看和恢复最近关闭的标签页",
-  "permissions": ["sessions", "tabs", "favicon"],
+  "permissions": ["sessions", "tabs", "favicon", "activeTab", "storage"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "action": {
     "default_popup": "popup.html",
     "default_title": "最近关闭的标签页"
-  }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/icon16.png",
+        "icons/icon32.png",
+        "icons/icon48.png",
+        "icons/icon128.png"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
