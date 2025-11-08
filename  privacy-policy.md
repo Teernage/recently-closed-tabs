@@ -58,8 +58,8 @@
 
 如有任何问题，请通过以下方式联系：
 
-- GitHub Issues: https://github.com/Teernage/open-all/issues
-- GitHub Repository: https://github.com/Teernage/open-all
+- GitHub Issues: https://github.com/Teernage/recently-closed-tabs/issues
+- GitHub Repository: https://github.com/Teernage/recently-closed-tabs
 
 ---
 
@@ -117,8 +117,8 @@ We will notify you of any significant changes in the Extension update notes.
 
 For any questions, please contact us:
 
-- GitHub Issues: https://github.com/Teernage/open-all/issues
-- GitHub Repository: https://github.com/Teernage/open-all
+- GitHub Issues: https://github.com/Teernage/recently-closed-tabs/issues
+- GitHub Repository: https://github.com/Teernage/recently-closed-tabs
 
 ---
 
@@ -139,7 +139,7 @@ For any questions, please contact us:
 
 This Extension is open source. You can view the complete source code at:
 
-**GitHub**: https://github.com/Teernage/open-all
+**GitHub**: https://github.com/Teernage/recently-closed-tabs
 
 ---
 
