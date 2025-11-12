@@ -3,7 +3,7 @@
   "name": "最近关闭标签页管理器",
   "version": "1.0",
   "description": "查看和恢复最近关闭的标签页",
-  "permissions": ["sessions", "tabs", "favicon", "storage"],
+  "permissions": ["sessions", "tabs", "favicon"],
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",

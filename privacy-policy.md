@@ -38,7 +38,6 @@
 | ---------- | --------------------------- |
 | `tabs`     | 获取标签页信息（URL、标题） |
 | `sessions` | 访问最近关闭的标签页        |
-| `storage`  | 保存用户设置（如显示数量）  |
 
 ### 您的权利
 
@@ -78,14 +77,12 @@ This Extension only accesses the following information to provide core functiona
 
 ### How Data Is Stored
 
-- ✅ **Completely Local Storage**: All data is saved only in your browser locally
 - ✅ **No Server Upload**: We have no servers and do not upload your data
 - ✅ **No Third-Party Sharing**: No analytics, advertising, or tracking services used
 - ✅ **No Data Sale**: We will never sell any of your information
 
 ### Data Security
 
-- All data is managed through Chrome's local storage API
 - You can delete all information at any time by clearing browser data
 - Uninstalling the Extension will automatically remove all related data
 
@@ -97,7 +94,6 @@ Permissions requested by this Extension and their purposes:
 | ---------- | ------------------------------------------- |
 | `tabs`     | Get tab information (URL, title)            |
 | `sessions` | Access recently closed tabs                 |
-| `storage`  | Save user preferences (e.g., display count) |
 
 ### Your Rights
 
